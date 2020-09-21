@@ -71,3 +71,26 @@ img {
 .clear {
   clear: both;
 }
+
+/* @media screen and (min-widht: 420px) {
+    .right, .left {
+        width: 25%;
+        display: block; */
+
+}
+
+@media screen and (max-width: 420px) {
+
+#lezioni .row > .left, #lezioni .row > .right {
+    float:none;
+    width:100%;
+}
+/*
+    .container  {
+        max-width: 400px;}
+        .row {
+            width: 100%;
+
+        }
+        */
+}
